@@ -1,0 +1,54 @@
+/*here CSS Progress Bar*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+:root {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  html {
+    font-size: 175%;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+
+  button {
+    background-color: #555555;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  } 
+
+#myProgress{
+    width:100%;
+    background-color: #ddd;
+    border-radius: 12px;
+}
+
+#mybar{
+    width: 10%;
+    height: 30px;
+    background-color: #4CAF50;;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 12px;
+}
